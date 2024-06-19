@@ -3,7 +3,8 @@ import Button from "@/components/ui/button";
 export default function Home() {
   return (
     <main className="">
-      <Button size={"sm"}>Result</Button>
+      {/* <Button size={"sm"}>Result</Button> */}
+      hi
     </main>
   );
 }

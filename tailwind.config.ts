@@ -1,4 +1,5 @@
 import type {Config} from "tailwindcss";
+const withMT = require("@material-tailwind/react/utils/withMT");
 
 const config: Config = {
   content: [
@@ -8,13 +9,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        28: "28px",
+        32: "32px",
+      },
+	  borderRadius: {
+		10: "10px"
+	  },
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
       },
       colors: {
         primary: "#6F2B8D",
         tertiary: "#FBF1FF",
-        backgrounds: "#F1F4F9",
+        background: "#F1F4F9",
         "text-primary": "#202224",
         "text-secondary": "#1E1E1E",
         "text-tertiary": "#1B1B1B",
@@ -46,4 +54,4 @@ const config: Config = {
   },
   plugins: [],
 };
-export default config;
+export default withMT(config);
