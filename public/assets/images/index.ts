@@ -8,6 +8,7 @@ import Avatar5 from "./avatar5.png";
 import Avatar6 from "./avatar6.png";
 import Avatar7 from "./avatar7.png";
 import Avatar8 from "./avatar8.png";
+import Wave from "./wave.png";
 
 export {
   AuthBg,
@@ -20,4 +21,5 @@ export {
   Avatar7,
   Avatar8,
   Logo,
+  Wave,
 };

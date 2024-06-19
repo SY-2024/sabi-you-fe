@@ -13,9 +13,9 @@ const config: Config = {
         28: "28px",
         32: "32px",
       },
-	  borderRadius: {
-		10: "10px"
-	  },
+      borderRadius: {
+        10: "10px",
+      },
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
       },
@@ -30,6 +30,8 @@ const config: Config = {
         d8: "#D8D8D8",
         e1: "#e1e1e1",
         e3: "#E3E3E3",
+        e7e7e9: "#e7e7e9",
+        fa: "#fafafa",
         f8f8f9: "#F8F8F9",
         brand: {
           text: "#6B7280",
